@@ -1,0 +1,95 @@
+﻿david_statue_template {
+	can_equip = {
+		always = yes
+	}
+
+	can_benefit = {
+		always = yes
+	}
+
+	can_reforge = {
+		always = no
+	}
+
+	can_repair = {
+		always = yes #need to be changed for at least 10 knowledge skill on the character
+	}
+
+	ai_score = {
+		value = 100
+	}
+
+	unique = yes
+}
+
+terracotta_army_template {
+	can_equip = {
+		always = yes
+	}
+
+	can_benefit = {
+		always = yes
+	}
+
+	can_reforge = {
+		always = no
+	}
+
+	can_repair = {
+		always = yes #need to be changed for at least 10 knowledge skill on the character
+	}
+
+	ai_score = {
+		value = 100
+	}
+
+	unique = yes
+}
+
+pandora_box_template {
+	can_equip = {
+		always = yes
+	}
+
+	can_benefit = {
+		always = yes
+	}
+
+	can_reforge = {
+		always = no
+	}
+
+	can_repair = {
+		always = yes #need to be changed for at least 10 knowledge skill on the character
+	}
+
+	ai_score = {
+		value = 100
+	}
+
+	unique = yes
+}
+
+poseidon_trident_template {
+	can_equip = {
+		always = yes
+	}
+
+	can_benefit = {
+		always = yes
+	}
+
+	can_reforge = {
+		always = no
+	}
+
+	can_repair = {
+		always = yes #need to be changed for at least 10 knowledge skill on the character
+	}
+
+	ai_score = {
+		value = 100
+	}
+
+	unique = yes
+}ss
