@@ -4,3 +4,9 @@ legendary_decision:0 "Тест тайтл"
 legendary_decision_confirm:0 "Тест баттон"
 test_neg_desc:0 "Негатив"
 test_neg:0 "Негатив"
+
+pandora_box:0 "Ящик Пандоры"
+pandora_box_desc:0 "Ящик, открыв который, по легенде, можно уничтожить мир"
+
+poseidon_trident:0 "Трезубец Посейдона"
+poseidon_trident_desc:0 "Трезубец принадлежавший могучему богу морей"

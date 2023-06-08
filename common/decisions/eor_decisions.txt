@@ -75,6 +75,88 @@ eor_decision_neg= {
   }
 }
 
+eor_decision_pandora= {
+	title = "Ящик Пандоры"
+	picture = "gfx/interface/illustrations/decisions/dec_test.dds"
+
+	major = yes
+	
+	desc = legendary_decision_desc
+	confirm_text = legendary_decision_confirm
+
+  is_shown = {
+          has_royal_court = yes
+  }
+
+	cost = {
+		gold = 30000
+	}
+
+  effect = {
+    add_character_modifier = {
+			modifier = eor_main_modifier_positive
+		}
+
+    trigger_event = {
+			id = eor_event.0002
+			days = 10
+		}
+  }
+
+  ai_potential = {
+
+  }
+
+  ai_will_do = {
+    base = 10
+  }
+
+  cooldown = {
+    days = 1
+  }
+}
+
+eor_decision_poseidon= {
+	title = "Трезубец Посейдона"
+	picture = "gfx/interface/illustrations/decisions/dec_test.dds"
+
+	major = yes
+	
+	desc = legendary_decision_desc
+	confirm_text = legendary_decision_confirm
+
+  is_shown = {
+          has_royal_court = yes
+  }
+
+	cost = {
+		gold = 50000
+	}
+
+  effect = {
+    add_character_modifier = {
+			modifier = eor_main_modifier_positive
+		}
+
+    trigger_event = {
+			id = eor_event.0003
+			days = 10
+		}
+  }
+
+  ai_potential = {
+
+  }
+
+  ai_will_do = {
+    base = 10
+  }
+
+  cooldown = {
+    days = 1
+  }
+}
+
 ###########################################
 
 
