@@ -1,0 +1,29 @@
+﻿eor_decision_find= {
+	title = legendary_decision
+	picture = "gfx/interface/illustrations/decisions/dec_test.dds"
+
+	major = yes
+	
+	desc = legendary_decision_desc
+	confirm_text = legendary_decision_confirm
+
+  is_shown = {
+    always = yes
+  }
+
+	cost = {
+		gold = 1000
+	}
+
+  effect = {
+
+  }
+
+  ai_potential = {
+
+  }
+
+  ai_will_do = {
+    base = 10
+  }	
+}

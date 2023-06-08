@@ -1,0 +1,19 @@
+eor_main_modifier_positive {
+  icon = eor_main_modifier_positive.dds
+
+  learning = 5
+  county_opinion_add = 10
+  courtier_and_guest_opinion = 10
+  vassal_opinion = 10
+  learning_scheme_power = 20
+  knight_limit = 2
+}
+
+eor_main_modifier_negative {
+  icon = eor_main_modifier_negative.dds
+
+  vassal_opinion = -5
+  learning_scheme_power = -20
+  stress_gain_mult = 1.2
+  dynasty_opinion = -5
+}
