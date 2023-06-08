@@ -14,39 +14,8 @@
 		}
 		save_scope_as = eor_pandora_box
 		decaying = yes
+    modifier = artifact_monthly_piety_4_modifier
     set_variable = { name = historical_unique_artifact value = yes }
-    owner = none
-	}
-
-  create_artifact = {
-		name = poseidon_trident
-		description = poseidon_trident_desc
-		type = sword 
-		visuals = poseidon_trident
-		wealth = scope:wealth
-		quality = scope:quality
-		history = {
-			type = created_before_history
-		}
-		save_scope_as = eor_poseidon_trident
-		decaying = yes
-    set_variable = { name = historical_unique_artifact value = yes }
-    owner = none
-	}
-
-  create_artifact = {
-		name = terracotta_army
-		description = terracotta_army_desc
-		type = sword 
-		visuals = terracotta_army
-		wealth = scope:wealth
-		quality = scope:quality
-		history = {
-			type = created_before_history
-		}
-		save_scope_as = eor_terracotta_army
-		decaying = yes
-    set_variable = { name = historical_unique_artifact value = yes }
-    owner = none
+    save_scope_as = newly_created_artifact
 	}
 }

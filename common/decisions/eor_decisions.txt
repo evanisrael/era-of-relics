@@ -21,7 +21,7 @@
 		}
 
     trigger_event = {
-			id = eor_event.0002
+			id = eor_event.0200
 			days = 10
 		}
   }
@@ -35,7 +35,7 @@
   }
 
   cooldown = {
-    days = 1800
+    days = 1
   }
 }
 
