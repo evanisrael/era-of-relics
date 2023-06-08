@@ -12,7 +12,7 @@
   }
 
 	cost = {
-		gold = 1000
+		gold = 100
 	}
 
   effect = {
@@ -21,8 +21,8 @@
 		}
 
     trigger_event = {
-			id = eor_event_chain.0001
-			days = 1
+			id = eor_event.0002
+			days = 10
 		}
   }
 
@@ -73,4 +73,87 @@ eor_decision_neg= {
   cooldown = {
     days = 1800
   }
+}
+
+###########################################
+
+
+namespace = my_decision
+
+# Define the trigger
+trigger = {
+    has_global_flag = my_decision_available
+    character = {
+        is_ai = no
+        exists = yes
+    }
+}
+
+# Define the options
+option = {
+    # Check if there are still artifacts available to
+    hidden_effect = {
+        count_global_flags = my_event_given_artifacts
+        num_of_flags = 10
+        set_global_flag = my_decision_available
+    }
+
+    # Set the character flag to allow the event to trigger
+    effect = {
+        character_event_target = {
+            add_character_flag = my_event_available
+        }
+    }
+
+    # Wait for 2 months
+    days = 60
+
+    # Trigger the event
+    trigger_event = {
+        id = my_event.id
+    }
+
+    # Wait for 2 months
+    days = 60
+
+    # Trigger the event again
+    trigger_event = {
+        id = my_event.id
+    }
+
+    # Wait for 2 months
+    days = 60
+
+    # Trigger the event again
+    trigger_event = {
+        id = my_event.id
+    }
+
+    # Wait for 2 months
+    days = 60
+
+    # Trigger the event again
+    trigger_event = {
+        id = my_event.id
+    }
+
+    # Wait for 2 months
+    days = 60
+
+    # Trigger the event again, but on the last time create a new artifact
+    option_trigger_event = {
+        id = my_event.id
+        hidden_effect = {
+            random_artifact = {
+                range = artifact_type_1 -- artifact_type_10
+            }
+            create_artifact = {
+                type = RESULT
+            }
+            set_global_flag = RESULT_given
+            global_event_target = {
+                add_character_flag = my_event_available
+            }
+        }
+    }
 }

@@ -1,6 +1,19 @@
 ﻿namespace = eor_event
 
 eor_event.0001 = {
+	type = empty
+	hidden = yes
+	immediate = {
+		if = {
+			limit = {
+				has_dlc_feature = royal_court
+			}
+			create_eor_artifacts_effect
+		}
+	}
+}
+
+eor_event.0002 = {
 	type = character_event
   scope = character
 
@@ -16,6 +29,62 @@ eor_event.0001 = {
   option {
     name = legendary_decision_desc
 
-    create_artifact_pandora_box_effect
+    pandora_box.owner = ROOT
   }
 }
+
+###############################
+
+namespace = eor_event
+
+eor_event.0001 = {
+	
+  # Define the trigger
+    trigger = {
+        has_character_flag = my_event_available
+    }
+
+# Define the options
+    option = {
+        # Loop through all the artifacts in 00_eor_artifacts_effects.txt
+        limit = {
+            iterate = artifacts
+            file = "00_eor_artifacts_effects.txt"
+        }
+
+        # Check if the artifact is already given to someone
+        random_list = {
+            scope = global
+            list = my_event_given_artifacts
+            max_value = 1
+            is_empty = yes
+            modifier = {
+                value = %(artifacts.id)
+                add = 1
+                is_artifact = yes        }
+        }
+
+        # If the artifact is not given to anyone, give it to the player
+        effect = {
+            set_global_flag = %(artifacts.id)_given
+            give_artifact = {
+                artifact_type = %(artifacts.type)
+                who = FROM
+            }
+            global_event_target = {
+                add_character_flag = my_event_available
+            }
+        }
+
+        # Add the artifact to the given list so it won't be given again
+        effect = {
+            scope = global
+            add_list = my_event_given_artifacts
+            valueartifacts.id)
+            is_art = yes
+        }
+    }
+}
+
+
+
