@@ -92,4 +92,5 @@ poseidon_trident_template {
 	}
 
 	unique = yes
-}ss
+}
+

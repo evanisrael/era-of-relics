@@ -1,0 +1,21 @@
+﻿namespace = eor_event
+
+eor_event.0001 = {
+	type = character_event
+  scope = character
+
+  left_portrait = {
+      character = ROOT
+			animation = admiration
+		}
+  artifact = {
+		target = pandora_box
+		position = lower_right_portrait
+	}
+
+  option {
+    name = legendary_decision_desc
+
+    create_artifact_pandora_box_effect
+  }
+}

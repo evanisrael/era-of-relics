@@ -19,6 +19,11 @@
     add_character_modifier = {
 			modifier = eor_main_modifier_positive
 		}
+
+    trigger_event = {
+			id = eor_event_chain.0001
+			days = 1
+		}
   }
 
   ai_potential = {
