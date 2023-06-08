@@ -1,0 +1,44 @@
+﻿aztec_sun_stone = {
+	icon = "Aztec_Sun_Stone.dds"
+	asset = ep1_generic_jewelry_01_a_entity
+}
+
+david_by_mich = {
+	icon = "David_by_Michelangelo.dds"
+	asset = ep1_generic_jewelry_01_a_entity
+}
+
+holy_grail = {
+	icon = "Holy_grail.dds"
+	asset = ep1_generic_jewelry_01_a_entity
+}
+
+hope_diamond = {
+	icon = "Hope_diamond.dds"
+	asset = ep1_generic_jewelry_01_a_entity
+}
+
+mask_of_agamemnon = {
+	icon = "Mask_of_Agamemnon.dds"
+	asset = ep1_generic_jewelry_01_a_entity
+}
+
+mjolnir_axe = {
+	icon = "Mjolnir.dds"
+	asset = ep1_generic_jewelry_01_a_entity
+}
+
+pandora_chest = {
+	icon = "pandora_chest.dds"
+	asset = ep1_generic_jewelry_01_a_entity
+}
+
+poseidon_trident = {
+	icon = "poseidon_trident.dds"
+	asset = ep1_generic_jewelry_01_a_entity
+}
+
+terracotta_army = {
+	icon = "Terracotta_Army.dds"
+	asset = ep1_generic_jewelry_01_a_entity
+}
