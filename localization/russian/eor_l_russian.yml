@@ -2,3 +2,5 @@
 legendary_decision_desc:0 "Тест деск"
 legendary_decision:0 "Тест тайтл"
 legendary_decision_confirm:0 "Тест баттон"
+test_neg_desc:0 "Негатив"
+test_neg:0 "Негатив"
