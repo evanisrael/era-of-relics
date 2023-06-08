@@ -21,7 +21,7 @@
 		}
 
     trigger_event = {
-			id = eor_event.0200
+			id = eor_event.0002
 			days = 10
 		}
   }

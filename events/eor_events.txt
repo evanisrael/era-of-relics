@@ -1,14 +1,6 @@
 ﻿namespace = eor_event
 
 eor_event.0001 = {
-  type = empty
-	hidden = yes
-	immediate = {
-				create_eor_artifacts_effect
-			}
-		}
-
-eor_event.0100 = {
 	type = character_event
 	title = "Тест титле"
 	desc = "Тест дескриптион"
@@ -24,7 +16,7 @@ eor_event.0100 = {
 	}
 }
 
-eor_event.0200 = {
+eor_event.0002 = {
 	type = character_event
   scope = character
 

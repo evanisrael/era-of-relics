@@ -1,5 +1,0 @@
-eor_action = {
-    events = {
-        eor_event.0001
-    }
-}
