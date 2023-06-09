@@ -1,0 +1,40 @@
+﻿namespace = eor_terracotta_event
+
+#pandora's box
+
+eor_terracotta_event.1000 = {
+	type = character_event
+  scope = character
+
+  left_portrait = {
+      character = ROOT
+			animation = admiration
+		}
+
+  option {
+    name = "Тест терракотта"
+
+    create_eor_terracotta_army_effect = {
+	  $OWNER$ = { save_scope_as = owner }
+	  set_artifact_rarity_illustrious = yes
+
+	  create_artifact = {
+      name = terracotta_army
+      description = terracotta_army_desc
+      type = sword 
+      visuals = terracotta_army
+      wealth = scope:wealth
+      quality = scope:quality
+      history = {
+        type = created_before_history
+      }
+      save_scope_as = eor_terracotta_army
+      decaying = yes
+      modifier = artifact_monthly_piety_4_modifier
+      set_variable = { name = historical_unique_artifact value = yes }
+      set_variable = { name = terracotta_army_artifact }
+    }
+  }
+    give_artifact = { who = root artifact = terracotta_army } 
+  }
+}

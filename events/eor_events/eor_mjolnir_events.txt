@@ -1,0 +1,40 @@
+﻿namespace = eor_mjolnir_event
+
+#pandora's box
+
+eor_mjolnir_event.1000 = {
+	type = character_event
+  scope = character
+
+  left_portrait = {
+      character = ROOT
+			animation = admiration
+		}
+
+  option {
+    name = "Тест мьельнир"
+
+    create_eor_mjolnir_axe_effect = {
+	  $OWNER$ = { save_scope_as = owner }
+	  set_artifact_rarity_illustrious = yes
+
+	  create_artifact = {
+      name = mjolnir_axe
+      description = mjolnir_axe_desc
+      type = sword 
+      visuals = mjolnir_axe
+      wealth = scope:wealth
+      quality = scope:quality
+      history = {
+        type = created_before_history
+      }
+      save_scope_as = eor_mjolnir_axe
+      decaying = yes
+      modifier = artifact_monthly_piety_4_modifier
+      set_variable = { name = historical_unique_artifact value = yes }
+      set_variable = { name = mjolnir_axe_artifact }
+    }
+  }
+    give_artifact = { who = root artifact = mjolnir_axe } 
+  }
+}

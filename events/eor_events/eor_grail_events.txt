@@ -1,0 +1,40 @@
+﻿namespace = eor_grail_event
+
+#pandora's box
+
+eor_grail_event.1000 = {
+	type = character_event
+  scope = character
+
+  left_portrait = {
+      character = ROOT
+			animation = admiration
+		}
+
+  option {
+    name = "Тест грааль"
+
+    create_eor_holy_grail_effect = {
+	  $OWNER$ = { save_scope_as = owner }
+	  set_artifact_rarity_illustrious = yes
+
+	  create_artifact = {
+      name = holy_grail
+      description = holy_grail_desc
+      type = sword 
+      visuals = holy_grail
+      wealth = scope:wealth
+      quality = scope:quality
+      history = {
+        type = created_before_history
+      }
+      save_scope_as = eor_holy_grail
+      decaying = yes
+      modifier = artifact_monthly_piety_4_modifier
+      set_variable = { name = historical_unique_artifact value = yes }
+      set_variable = { name = holy_grail_artifact }
+    }
+  }
+    give_artifact = { who = root artifact = holy_grail } 
+  }
+}

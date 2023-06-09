@@ -1,0 +1,40 @@
+﻿namespace = eor_aztec_event
+
+#pandora's box
+
+eor_aztec_event.1000 = {
+	type = character_event
+  scope = character
+
+  left_portrait = {
+      character = ROOT
+			animation = admiration
+		}
+
+  option {
+    name = "Тест ацтек"
+
+    create_eor_aztec_sun_stone_effect = {
+      $OWNER$ = { save_scope_as = owner }
+      set_artifact_rarity_illustrious = yes
+  
+      create_artifact = {
+        name = aztec_sun_stone
+        description = aztec_sun_stone_desc
+        type = sword 
+        visuals = aztec_sun_stone
+        wealth = scope:wealth
+        quality = scope:quality
+        history = {
+          type = created_before_history
+        }
+        save_scope_as = eor_aztec_sun_stone
+        decaying = yes
+        modifier = artifact_monthly_piety_4_modifier
+        set_variable = { name = historical_unique_artifact value = yes }
+        set_variable = { name = aztec_sun_stone_artifact }
+      }
+    }
+    give_artifact = { who = root artifact = aztec_sun_stone } 
+  }
+}

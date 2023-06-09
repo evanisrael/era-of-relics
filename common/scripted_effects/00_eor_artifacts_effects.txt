@@ -41,3 +41,157 @@ create_eor_poseidon_trident_effect = {
       set_variable = { name = poseidon_trident_artifact }
     }
   }
+
+  create_eor_terracotta_army_effect = {
+	  $OWNER$ = { save_scope_as = owner }
+	  set_artifact_rarity_illustrious = yes
+
+	  create_artifact = {
+      name = terracotta_army
+      description = terracotta_army_desc
+      type = sword 
+      visuals = terracotta_army
+      wealth = scope:wealth
+      quality = scope:quality
+      history = {
+        type = created_before_history
+      }
+      save_scope_as = eor_terracotta_army
+      decaying = yes
+      modifier = artifact_monthly_piety_4_modifier
+      set_variable = { name = historical_unique_artifact value = yes }
+      set_variable = { name = terracotta_army_artifact }
+    }
+  }
+
+  create_eor_mjolnir_axe_effect = {
+	  $OWNER$ = { save_scope_as = owner }
+	  set_artifact_rarity_illustrious = yes
+
+	  create_artifact = {
+      name = mjolnir_axe
+      description = mjolnir_axe_desc
+      type = sword 
+      visuals = mjolnir_axe
+      wealth = scope:wealth
+      quality = scope:quality
+      history = {
+        type = created_before_history
+      }
+      save_scope_as = eor_mjolnir_axe
+      decaying = yes
+      modifier = artifact_monthly_piety_4_modifier
+      set_variable = { name = historical_unique_artifact value = yes }
+      set_variable = { name = mjolnir_axe_artifact }
+    }
+  }
+
+  create_eor_mask_of_agamemnon_effect = {
+	  $OWNER$ = { save_scope_as = owner }
+	  set_artifact_rarity_illustrious = yes
+
+	  create_artifact = {
+      name = mask_of_agamemnon
+      description = mask_of_agamemnon_desc
+      type = sword 
+      visuals = mask_of_agamemnon
+      wealth = scope:wealth
+      quality = scope:quality
+      history = {
+        type = created_before_history
+      }
+      save_scope_as = eor_mask_of_agamemnon
+      decaying = yes
+      modifier = artifact_monthly_piety_4_modifier
+      set_variable = { name = historical_unique_artifact value = yes }
+      set_variable = { name = mask_of_agamemnon_artifact }
+    }
+  }
+
+  create_eor_hope_diamond_effect = {
+	  $OWNER$ = { save_scope_as = owner }
+	  set_artifact_rarity_illustrious = yes
+
+	  create_artifact = {
+      name = hope_diamond
+      description = hope_diamond_desc
+      type = sword 
+      visuals = hope_diamond
+      wealth = scope:wealth
+      quality = scope:quality
+      history = {
+        type = created_before_history
+      }
+      save_scope_as = eor_hope_diamond
+      decaying = yes
+      modifier = artifact_monthly_piety_4_modifier
+      set_variable = { name = historical_unique_artifact value = yes }
+      set_variable = { name = hope_diamond_artifact }
+    }
+  }
+
+  create_eor_holy_grail_effect = {
+	  $OWNER$ = { save_scope_as = owner }
+	  set_artifact_rarity_illustrious = yes
+
+	  create_artifact = {
+      name = holy_grail
+      description = holy_grail_desc
+      type = sword 
+      visuals = holy_grail
+      wealth = scope:wealth
+      quality = scope:quality
+      history = {
+        type = created_before_history
+      }
+      save_scope_as = eor_holy_grail
+      decaying = yes
+      modifier = artifact_monthly_piety_4_modifier
+      set_variable = { name = historical_unique_artifact value = yes }
+      set_variable = { name = holy_grail_artifact }
+    }
+  }
+
+  create_eor_david_by_mich_effect = {
+	  $OWNER$ = { save_scope_as = owner }
+	  set_artifact_rarity_illustrious = yes
+
+	  create_artifact = {
+      name = david_by_mich
+      description = david_by_mich_desc
+      type = sword 
+      visuals = david_by_mich
+      wealth = scope:wealth
+      quality = scope:quality
+      history = {
+        type = created_before_history
+      }
+      save_scope_as = eor_david_by_mich
+      decaying = yes
+      modifier = artifact_monthly_piety_4_modifier
+      set_variable = { name = historical_unique_artifact value = yes }
+      set_variable = { name = david_by_mich_artifact }
+    }
+  }
+
+  create_eor_aztec_sun_stone_effect = {
+	  $OWNER$ = { save_scope_as = owner }
+	  set_artifact_rarity_illustrious = yes
+
+	  create_artifact = {
+      name = aztec_sun_stone
+      description = aztec_sun_stone_desc
+      type = sword 
+      visuals = aztec_sun_stone
+      wealth = scope:wealth
+      quality = scope:quality
+      history = {
+        type = created_before_history
+      }
+      save_scope_as = eor_aztec_sun_stone
+      decaying = yes
+      modifier = artifact_monthly_piety_4_modifier
+      set_variable = { name = historical_unique_artifact value = yes }
+      set_variable = { name = aztec_sun_stone_artifact }
+    }
+  }

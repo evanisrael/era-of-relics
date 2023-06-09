@@ -1,0 +1,40 @@
+﻿namespace = eor_david_event
+
+#pandora's box
+
+eor_david_event.1000 = {
+	type = character_event
+  scope = character
+
+  left_portrait = {
+      character = ROOT
+			animation = admiration
+		}
+
+  option {
+    name = "Тест давид"
+
+    create_eor_david_by_mich_effect = {
+	  $OWNER$ = { save_scope_as = owner }
+	  set_artifact_rarity_illustrious = yes
+
+	  create_artifact = {
+      name = david_by_mich
+      description = david_by_mich_desc
+      type = sword 
+      visuals = david_by_mich
+      wealth = scope:wealth
+      quality = scope:quality
+      history = {
+        type = created_before_history
+      }
+      save_scope_as = eor_david_by_mich
+      decaying = yes
+      modifier = artifact_monthly_piety_4_modifier
+      set_variable = { name = historical_unique_artifact value = yes }
+      set_variable = { name = david_by_mich_artifact }
+    }
+  }
+    give_artifact = { who = root artifact = david_by_mich } 
+  }
+}

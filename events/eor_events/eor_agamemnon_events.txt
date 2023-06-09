@@ -1,0 +1,40 @@
+﻿namespace = eor_agamemnon_event
+
+#pandora's box
+
+eor_agamemnon_event.1000 = {
+	type = character_event
+  scope = character
+
+  left_portrait = {
+      character = ROOT
+			animation = admiration
+		}
+
+  option {
+    name = "Тест Агамемнон"
+
+    create_eor_mask_of_agamemnon_effect = {
+      $OWNER$ = { save_scope_as = owner }
+      set_artifact_rarity_illustrious = yes
+  
+      create_artifact = {
+        name = mask_of_agamemnon
+        description = mask_of_agamemnon_desc
+        type = sword 
+        visuals = mask_of_agamemnon
+        wealth = scope:wealth
+        quality = scope:quality
+        history = {
+          type = created_before_history
+        }
+        save_scope_as = eor_mask_of_agamemnon
+        decaying = yes
+        modifier = artifact_monthly_piety_4_modifier
+        set_variable = { name = historical_unique_artifact value = yes }
+        set_variable = { name = mask_of_agamemnon_artifact }
+      }
+    }
+    give_artifact = { who = root artifact = mask_of_agamemnon } 
+  }
+}
