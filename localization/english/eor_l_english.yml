@@ -1,9 +1,15 @@
 ﻿l_english:
-legendary_decision_desc:0 "Test desc"
-legendary_decision:0 "Test title"
-legendary_decision_confirm:0 "Test button"
-test_neg_desc:0 "Negative"
-test_neg:0 "Negative"
+
+#debug
+legendary_decision_desc:0 "Тест деск"
+legendary_decision:0 "Тест тайтл"
+legendary_decision_confirm:0 "Тест баттон"
+test_neg_desc:0 "Негатив"
+test_neg:0 "Негатив"
+
+# basic
+eor_decision_tooltip:0 "Embark on a perilous yet exhilarating quest in search of an ancient artifact capable of altering your destiny."
+eor_decision_confirm:0 "Gather the finest among you, we're embarking on a journey."
 
 
 
@@ -12,12 +18,18 @@ test_neg:0 "Negative"
 pandora_box:0 "Pandora's Box"
 pandora_box_desc:0 "A legendary artifact that contains all the evils of the world. It was given to Pandora by Zeus, who instructed her never to open it. However, curiosity got the better of her, and Pandora opened the box, releasing evils and suffering into the world. Only hope remained at the bottom."
 
+pandora_box_decision:0 "Pandora's Box Expedition"
+pandora_box_decision_desc:0 "Embark on a perilous quest to uncover the mythical Pandora's Box, said to contain unimaginable powers and dangers."
+
 
 
 # poseidon's trident
 
 poseidon_trident:0 "Poseidon's Trident"
 poseidon_trident_desc:0 "A powerful weapon belonging to the god of the seas. Forged by the cyclops, this artifact allows Poseidon to control the waters, conjuring storms and earthquakes. Whoever wields the Trident gains power over the seas and the surrounding world."
+
+poseidon_trident_decision:0 "Trident of Poseidon Expedition"
+poseidon_trident_decision_desc:0 "Gather a seasoned crew and sail the treacherous seas in search of the legendary Trident of Poseidon, capable of wielding immense power both on land and sea."
 
 
 
@@ -26,6 +38,9 @@ poseidon_trident_desc:0 "A powerful weapon belonging to the god of the seas. For
 mask_of_agamemnon:0 "Golden Mask of Agamemnon"
 mask_of_agamemnon_desc:0 "A golden funeral mask found in Mycenae. It is believed to belong to King Agamemnon, a hero of the Trojan War. It is unclear whether the mask actually belonged to Agamemnon, but that did not prevent it from becoming a famous artifact."
 
+mask_of_agamemnon_decision:0 "Mask of Agamemnon Expedition"
+mask_of_agamemnon_decision_desc:0 "Travel through the echoes of time to uncover the legendary Mask of Agamemnon, a potent symbol of power and authority that bestows both skill and cunning upon its wearer."
+
 
 
 # aztec sun stone
@@ -33,12 +48,18 @@ mask_of_agamemnon_desc:0 "A golden funeral mask found in Mycenae. It is believed
 aztec_sun_stone:0 "Aztec Sun Stone"
 aztec_sun_stone_desc:0 "A magnificent artifact created by the Aztecs. It is a stone disc about 3.6 meters in diameter, containing symbols of the Aztec timekeeping and sacrificial practices. It is rightly considered one of the most significant discoveries in the history of ancient civilizations."
 
+aztec_sun_stone_decision:0 "Aztec Sun Stone Expedition"
+aztec_sun_stone_decision_desc:0 "Organize an expedition to the mysterious lands of the Aztecs and revel in their secrets, including the solar artifact believed to grant wisdom and prosperity to its possessor."
+
 
 
 # statue of david
 
 david_by_mich:0 "Statue of David"
-david_by_mich_desc:0 "A famous sculptural masterpiece created by the great Italian artist and sculptor Michelangelo. Depicting the classical biblical scene of David before his battle with Goliath, the statue is an important symbol of the revival of human and poetic ideals in the art of the Renaissance period."
+david_by_mich_desc:0 "A famous sculptural masterpiece created by the great Italian artist and sculptor Michelangelo. Depicting the classical biblical scene of David before his battle with Goliath, the statue is an important symbol of the revival of human and poetic ideals in the art."
+
+david_by_mich_decision:0 "Statue of David Expedition"
+david_by_mich_decision_desc:0 "Assemble a team to journey to acquire Statue of David, a masterpiece embodying artistic perfection and cultural influence."
 
 
 
@@ -47,6 +68,9 @@ david_by_mich_desc:0 "A famous sculptural masterpiece created by the great Itali
 holy_grail:0 "Holy Grail"
 holy_grail_desc:0 "A legendary artifact that is the subject of quests and traditions in Christian mythology. It is believed to be the cup or dish used by Jesus Christ at the Last Supper, from which he drank the wine symbolizing his blood. The Grail is associated with miracles and healing."
 
+holy_grail_decision:0 "Holy Grail Expedition"
+holy_grail_decision_desc:0 "Take up the sacred task of seeking the Holy Grail, an artifact reputed to grant divine blessings upon its beholder."
+
 
 
 # hope diamond
@@ -54,12 +78,18 @@ holy_grail_desc:0 "A legendary artifact that is the subject of quests and tradit
 hope_diamond:0 "Hope Diamond"
 hope_diamond_desc:0 "One of the great interests surrounding the Hope Diamond is its reputed curse. The diamond is thought to have been stolen from a Sita idol in India, and the original thief was torn to pieces by dogs. Since then, the diamond has passed from one owner to another, accompanied by misfortunes and deaths."
 
+hope_diamond_decision:0 "Hope Diamond Expedition"
+hope_diamond_decision_desc:0 "Venture into the depths of the Earth to unearth the fabled Hope Diamond, a stunning and highly valuable gemstone said to bestow prosperity and good fortune."
+
 
 
 # mjolnir
 
-mjolnir_axe:0 "Mjolnir"
+mjolnir_axe:0 "Mjölnir"
 mjolnir_axe_desc:0 "A mythical hammer of the god Thor in Norse mythology, symbolizing strength, protection, and justice. Mjolnir is a powerful weapon, able to smite enemies and summon thunder and lightning. According to legend, only the worthy can lift and wield it."
+
+mjolnir_axe_decision:0 "Mjölnir Expedition"
+mjolnir_axe_decision_desc:0 "Delve into the realm of Norse legends in pursuit of Mjölnir, the mighty hammer of Thor, known to grant strength and prowess in battle to those who wield."
 
 
 
@@ -67,3 +97,6 @@ mjolnir_axe_desc:0 "A mythical hammer of the god Thor in Norse mythology, symbol
 
 terracotta_army:0 "Terracotta Army"
 terracotta_army_desc:0 "A collection of clay sculptures designed to protect Emperor Qin Shi Huang in the afterlife and located in his mausoleum in China. Discovered in 1974, it consists of over 8,000 soldiers, 130 chariots, 520 horses, among others."
+
+terracotta_army_decision:0 "Terracotta Army Expedition"
+terracotta_army_decision_desc:0 "Embark on an ambitious journey to discover the ancient Terracotta Army, an extraordinary collection of sculptures rumored to confer great strategic advantages in times of war."

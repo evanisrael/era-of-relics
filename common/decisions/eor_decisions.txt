@@ -1,11 +1,13 @@
 ﻿eor_decision_pandora= {
-	title = "Ящик Пандоры"
-	picture = "gfx/interface/illustrations/decisions/dec_test.dds"
+	title = pandora_box_decision
+	picture = "gfx/interface/illustrations/decisions/pandora_box_desicion_illustr.dds"
 
 	major = yes
 	
-	desc = legendary_decision_desc
-	confirm_text = legendary_decision_confirm
+	desc = pandora_box_decision_desc
+  selection_tooltip = eor_decision_tooltip
+	confirm_text = eor_decision_confirm
+  
 
   is_shown = {
     NOT = {
@@ -54,13 +56,14 @@
 }
 
 eor_decision_poseidon= {
-	title = "Трезубец Посейдона"
-	picture = "gfx/interface/illustrations/decisions/dec_test.dds"
+	title = poseidon_trident_decision
+	picture = "gfx/interface/illustrations/decisions/poseidon_trident_decision_illustr.dds"
 
 	major = yes
 	
-	desc = legendary_decision_desc
-	confirm_text = legendary_decision_confirm
+	desc = poseidon_trident_decision_desc
+  selection_tooltip = eor_decision_tooltip
+	confirm_text = eor_decision_confirm
 
   is_shown = {
     NOT = {
@@ -109,13 +112,14 @@ eor_decision_poseidon= {
 }
 
 eor_decision_agamemnon= {
-	title = "Agamemnon"
-	picture = "gfx/interface/illustrations/decisions/dec_test.dds"
+	title = mask_of_agamemnon_decision
+	picture = "gfx/interface/illustrations/decisions/agamemnon_mask_decision_illustr.dds"
 
 	major = yes
 	
-	desc = legendary_decision_desc
-	confirm_text = legendary_decision_confirm
+	desc = mask_of_agamemnon_decision_desc
+  selection_tooltip = eor_decision_tooltip
+	confirm_text = eor_decision_confirm
 
   is_shown = {
     NOT = {
@@ -164,13 +168,14 @@ eor_decision_agamemnon= {
 }
 
 eor_decision_aztec= {
-	title = "Aztec"
-	picture = "gfx/interface/illustrations/decisions/dec_test.dds"
+	title = aztec_sun_stone_decision
+	picture = "gfx/interface/illustrations/decisions/aztec_stone_decision_illustr.dds"
 
 	major = yes
 	
-	desc = legendary_decision_desc
-	confirm_text = legendary_decision_confirm
+	desc = aztec_sun_stone_decision_desc
+  selection_tooltip = eor_decision_tooltip
+	confirm_text = eor_decision_confirm
 
   is_shown = {
     NOT = {
@@ -219,13 +224,14 @@ eor_decision_aztec= {
 }
 
 eor_decision_david= {
-	title = "David"
-	picture = "gfx/interface/illustrations/decisions/dec_test.dds"
+	title = david_by_mich_decision
+	picture = "gfx/interface/illustrations/decisions/david_by_mich_decision_illustr.dds"
 
 	major = yes
 	
-	desc = legendary_decision_desc
-	confirm_text = legendary_decision_confirm
+	desc = david_by_mich_decision_desc
+  selection_tooltip = eor_decision_tooltip
+	confirm_text = eor_decision_confirm
 
   is_shown = {
     NOT = {
@@ -274,13 +280,14 @@ eor_decision_david= {
 }
 
 eor_decision_grail= {
-	title = "grail"
-	picture = "gfx/interface/illustrations/decisions/dec_test.dds"
+	title = holy_grail_decision
+	picture = "gfx/interface/illustrations/decisions/holy_grail_decision_illustr.dds"
 
 	major = yes
 	
-	desc = legendary_decision_desc
-	confirm_text = legendary_decision_confirm
+	desc = holy_grail_decision_desc
+  selection_tooltip = eor_decision_tooltip
+	confirm_text = eor_decision_confirm
 
   is_shown = {
     NOT = {
@@ -329,13 +336,14 @@ eor_decision_grail= {
 }
 
 eor_decision_hope= {
-	title = "Hope"
-	picture = "gfx/interface/illustrations/decisions/dec_test.dds"
+	title = hope_diamond_decision
+	picture = "gfx/interface/illustrations/decisions/hope_diamond_decision_illustr.dds"
 
 	major = yes
 	
-	desc = legendary_decision_desc
-	confirm_text = legendary_decision_confirm
+	desc = hope_diamond_decision_desc
+  selection_tooltip = eor_decision_tooltip
+	confirm_text = eor_decision_confirm
 
   is_shown = {
     NOT = {
@@ -384,13 +392,14 @@ eor_decision_hope= {
 }
 
 eor_decision_mjolnir= {
-	title = "mjolnir"
-	picture = "gfx/interface/illustrations/decisions/dec_test.dds"
+	title = mjolnir_axe_decision
+	picture = "gfx/interface/illustrations/decisions/mjolnir_decision_illustr.dds"
 
 	major = yes
 	
-	desc = legendary_decision_desc
-	confirm_text = legendary_decision_confirm
+  desc = mjolnir_axe_decision_desc
+  selection_tooltip = eor_decision_tooltip
+	confirm_text = eor_decision_confirm
 
   is_shown = {
     NOT = {
@@ -439,13 +448,14 @@ eor_decision_mjolnir= {
 }
 
 eor_decision_terracotta= {
-	title = "terracotta"
-	picture = "gfx/interface/illustrations/decisions/dec_test.dds"
+	title = terracotta_army_decision
+	picture = "gfx/interface/illustrations/decisions/terracotta_army_decision_illustr.dds"
 
 	major = yes
 	
-	desc = legendary_decision_desc
-	confirm_text = legendary_decision_confirm
+	desc = terracotta_army_decision_desc
+  selection_tooltip = eor_decision_tooltip
+	confirm_text = eor_decision_confirm
 
   is_shown = {
     NOT = {
