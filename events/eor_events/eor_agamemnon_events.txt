@@ -1,6 +1,6 @@
 ﻿namespace = eor_agamemnon_event
 
-#pandora's box
+#mask of agamemnon
 
 eor_agamemnon_event.1000 = {
 	type = character_event
@@ -30,7 +30,7 @@ eor_agamemnon_event.1000 = {
         }
         save_scope_as = eor_mask_of_agamemnon
         decaying = yes
-        modifier = artifact_monthly_piety_4_modifier
+        modifier = artifact_mask_agamemnon_modifier
         set_variable = { name = historical_unique_artifact value = yes }
         set_variable = { name = mask_of_agamemnon_artifact }
       }

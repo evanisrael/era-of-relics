@@ -1,6 +1,6 @@
 ﻿namespace = eor_grail_event
 
-#pandora's box
+#holy grail
 
 eor_grail_event.1000 = {
 	type = character_event
@@ -30,7 +30,7 @@ eor_grail_event.1000 = {
       }
       save_scope_as = eor_holy_grail
       decaying = yes
-      modifier = artifact_monthly_piety_4_modifier
+      modifier = artifact_holy_grail_modifier
       set_variable = { name = historical_unique_artifact value = yes }
       set_variable = { name = holy_grail_artifact }
     }

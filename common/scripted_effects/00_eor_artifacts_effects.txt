@@ -5,7 +5,7 @@
 	  create_artifact = {
       name = pandora_box
       description = pandora_box_desc
-      type = sword 
+      type = chest 
       visuals = pandora_chest
       wealth = scope:wealth
       quality = scope:quality
@@ -14,7 +14,7 @@
       }
       save_scope_as = eor_pandora_box
       decaying = yes
-      modifier = artifact_monthly_piety_4_modifier
+      modifier = artifact_pandora_box_modifier
       set_variable = { name = historical_unique_artifact value = yes }
       set_variable = { name = pandora_box_artifact }
     }
@@ -27,7 +27,7 @@ create_eor_poseidon_trident_effect = {
 	  create_artifact = {
       name = poseidon_trident
       description = poseidon_trident_desc
-      type = sword 
+      type = spear 
       visuals = poseidon_trident
       wealth = scope:wealth
       quality = scope:quality
@@ -36,7 +36,7 @@ create_eor_poseidon_trident_effect = {
       }
       save_scope_as = eor_poseidon_trident
       decaying = yes
-      modifier = artifact_monthly_piety_4_modifier
+      modifier = artifact_poseidon_trident_modifier
       set_variable = { name = historical_unique_artifact value = yes }
       set_variable = { name = poseidon_trident_artifact }
     }
@@ -49,7 +49,7 @@ create_eor_poseidon_trident_effect = {
 	  create_artifact = {
       name = terracotta_army
       description = terracotta_army_desc
-      type = sword 
+      type = sculpture 
       visuals = terracotta_army
       wealth = scope:wealth
       quality = scope:quality
@@ -58,7 +58,7 @@ create_eor_poseidon_trident_effect = {
       }
       save_scope_as = eor_terracotta_army
       decaying = yes
-      modifier = artifact_monthly_piety_4_modifier
+      modifier = artifact_terracotta_army_modifier
       set_variable = { name = historical_unique_artifact value = yes }
       set_variable = { name = terracotta_army_artifact }
     }
@@ -71,7 +71,7 @@ create_eor_poseidon_trident_effect = {
 	  create_artifact = {
       name = mjolnir_axe
       description = mjolnir_axe_desc
-      type = sword 
+      type = hammer 
       visuals = mjolnir_axe
       wealth = scope:wealth
       quality = scope:quality
@@ -80,7 +80,7 @@ create_eor_poseidon_trident_effect = {
       }
       save_scope_as = eor_mjolnir_axe
       decaying = yes
-      modifier = artifact_monthly_piety_4_modifier
+      modifier = artifact_mjolnir_modifier
       set_variable = { name = historical_unique_artifact value = yes }
       set_variable = { name = mjolnir_axe_artifact }
     }
@@ -93,7 +93,7 @@ create_eor_poseidon_trident_effect = {
 	  create_artifact = {
       name = mask_of_agamemnon
       description = mask_of_agamemnon_desc
-      type = sword 
+      type = pedestal
       visuals = mask_of_agamemnon
       wealth = scope:wealth
       quality = scope:quality
@@ -102,7 +102,7 @@ create_eor_poseidon_trident_effect = {
       }
       save_scope_as = eor_mask_of_agamemnon
       decaying = yes
-      modifier = artifact_monthly_piety_4_modifier
+      modifier = artifact_mask_agamemnon_modifier
       set_variable = { name = historical_unique_artifact value = yes }
       set_variable = { name = mask_of_agamemnon_artifact }
     }
@@ -115,7 +115,7 @@ create_eor_poseidon_trident_effect = {
 	  create_artifact = {
       name = hope_diamond
       description = hope_diamond_desc
-      type = sword 
+      type = pedestal 
       visuals = hope_diamond
       wealth = scope:wealth
       quality = scope:quality
@@ -124,7 +124,7 @@ create_eor_poseidon_trident_effect = {
       }
       save_scope_as = eor_hope_diamond
       decaying = yes
-      modifier = artifact_monthly_piety_4_modifier
+      modifier = artifact_hope_diamond_modifier
       set_variable = { name = historical_unique_artifact value = yes }
       set_variable = { name = hope_diamond_artifact }
     }
@@ -137,7 +137,7 @@ create_eor_poseidon_trident_effect = {
 	  create_artifact = {
       name = holy_grail
       description = holy_grail_desc
-      type = sword 
+      type = pedestal
       visuals = holy_grail
       wealth = scope:wealth
       quality = scope:quality
@@ -146,7 +146,7 @@ create_eor_poseidon_trident_effect = {
       }
       save_scope_as = eor_holy_grail
       decaying = yes
-      modifier = artifact_monthly_piety_4_modifier
+      modifier = artifact_holy_grail_modifier
       set_variable = { name = historical_unique_artifact value = yes }
       set_variable = { name = holy_grail_artifact }
     }
@@ -159,7 +159,7 @@ create_eor_poseidon_trident_effect = {
 	  create_artifact = {
       name = david_by_mich
       description = david_by_mich_desc
-      type = sword 
+      type = sculpture
       visuals = david_by_mich
       wealth = scope:wealth
       quality = scope:quality
@@ -168,7 +168,7 @@ create_eor_poseidon_trident_effect = {
       }
       save_scope_as = eor_david_by_mich
       decaying = yes
-      modifier = artifact_monthly_piety_4_modifier
+      modifier = artifact_david_statue_modifier
       set_variable = { name = historical_unique_artifact value = yes }
       set_variable = { name = david_by_mich_artifact }
     }
@@ -181,7 +181,7 @@ create_eor_poseidon_trident_effect = {
 	  create_artifact = {
       name = aztec_sun_stone
       description = aztec_sun_stone_desc
-      type = sword 
+      type = sculpture 
       visuals = aztec_sun_stone
       wealth = scope:wealth
       quality = scope:quality
@@ -190,7 +190,7 @@ create_eor_poseidon_trident_effect = {
       }
       save_scope_as = eor_aztec_sun_stone
       decaying = yes
-      modifier = artifact_monthly_piety_4_modifier
+      modifier = artifact_aztec_sun_stone_modifier
       set_variable = { name = historical_unique_artifact value = yes }
       set_variable = { name = aztec_sun_stone_artifact }
     }

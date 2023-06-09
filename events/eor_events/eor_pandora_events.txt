@@ -30,7 +30,7 @@ eor_pandora_event.1000 = {
       }
       save_scope_as = eor_pandora_box
       decaying = yes
-      modifier = artifact_monthly_piety_4_modifier
+      modifier = artifact_pandora_box_modifier
       set_variable = { name = historical_unique_artifact value = yes }
       set_variable = { name = pandora_box_artifact }
       }

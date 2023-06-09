@@ -1,6 +1,6 @@
 ﻿namespace = eor_mjolnir_event
 
-#pandora's box
+# mjolnir
 
 eor_mjolnir_event.1000 = {
 	type = character_event
@@ -30,7 +30,7 @@ eor_mjolnir_event.1000 = {
       }
       save_scope_as = eor_mjolnir_axe
       decaying = yes
-      modifier = artifact_monthly_piety_4_modifier
+      modifier = artifact_mjolnir_modifier
       set_variable = { name = historical_unique_artifact value = yes }
       set_variable = { name = mjolnir_axe_artifact }
     }

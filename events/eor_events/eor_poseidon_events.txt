@@ -1,6 +1,6 @@
 ﻿namespace = eor_poseidon_event
 
-#pandora's box
+#poseidon trident
 
 eor_poseidon_event.1000 = {
 	type = character_event
@@ -30,7 +30,7 @@ eor_poseidon_event.1000 = {
       }
       save_scope_as = eor_poseidon_trident
       decaying = yes
-      modifier = artifact_monthly_piety_4_modifier
+      modifier = artifact_poseidon_trident_modifier
       set_variable = { name = historical_unique_artifact value = yes }
       set_variable = { name = poseidon_trident_artifact }
     }

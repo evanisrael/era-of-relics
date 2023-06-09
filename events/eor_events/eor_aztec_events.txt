@@ -1,6 +1,6 @@
 ﻿namespace = eor_aztec_event
 
-#pandora's box
+#aztek sun stone
 
 eor_aztec_event.1000 = {
 	type = character_event
@@ -30,7 +30,7 @@ eor_aztec_event.1000 = {
         }
         save_scope_as = eor_aztec_sun_stone
         decaying = yes
-        modifier = artifact_monthly_piety_4_modifier
+        modifier = artifact_aztec_sun_stone_modifier
         set_variable = { name = historical_unique_artifact value = yes }
         set_variable = { name = aztec_sun_stone_artifact }
       }

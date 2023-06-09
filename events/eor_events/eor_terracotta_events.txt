@@ -1,6 +1,6 @@
 ﻿namespace = eor_terracotta_event
 
-#pandora's box
+# terracotta army
 
 eor_terracotta_event.1000 = {
 	type = character_event
@@ -30,7 +30,7 @@ eor_terracotta_event.1000 = {
       }
       save_scope_as = eor_terracotta_army
       decaying = yes
-      modifier = artifact_monthly_piety_4_modifier
+      modifier = artifact_terracotta_army_modifier
       set_variable = { name = historical_unique_artifact value = yes }
       set_variable = { name = terracotta_army_artifact }
     }

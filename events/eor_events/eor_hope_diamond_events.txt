@@ -1,6 +1,6 @@
 ﻿namespace = eor_hope_event
 
-#pandora's box
+#hope diamond
 
 eor_hope_event.1000 = {
 	type = character_event
@@ -30,7 +30,7 @@ eor_hope_event.1000 = {
       }
       save_scope_as = eor_hope_diamond
       decaying = yes
-      modifier = artifact_monthly_piety_4_modifier
+      modifier = artifact_hope_diamond_modifier
       set_variable = { name = historical_unique_artifact value = yes }
       set_variable = { name = hope_diamond_artifact }
     }

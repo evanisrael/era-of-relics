@@ -1,0 +1,64 @@
+﻿artifact_aztec_sun_stone_modifier = {
+	learning = 5
+  monthly_prestige_gain_mult = 0.2
+  cultural_head_fascination_mult = 0.2
+  tribal_government_opinion = 10
+}
+
+artifact_david_statue_modifier = {
+	diplomacy = 5
+  learning = 3
+  same_culture_opinion = 10
+  courtier_and_guest_opinion = 10
+}
+
+artifact_holy_grail_modifier = {
+	monthly_piety = 5
+  health = 0.3
+  same_faith_opinion = 20
+  monthly_piety_gain_mult = 0.2
+}
+
+artifact_hope_diamond_modifier = {
+	monthly_income_mult = 0.3
+  monthly_prestige_gain_mult = 0.2
+  opinion_of_female_rulers = 10
+  vassal_tax_contribution_mult = 0.1
+  health = -0.3
+}
+
+artifact_mask_agamemnon_modifier = {
+	intrigue = 5
+  martial = 3
+  courtier_and_guest_opinion = 10
+  dread_gain_mult = 0.2
+}
+
+artifact_mjolnir_modifier = {
+	martial = 8
+  prowess = 5
+  monthly_county_control_change_add = 2
+  enemy_hard_casualty_modifier = 0.1
+}
+
+artifact_pandora_box_modifier = {
+	health = -0.3
+  intrigue = 4
+  diplomacy = -3
+  general_opinion = -10
+  dread_gain_mult = 0.3
+}
+
+artifact_poseidon_trident_modifier = {
+	martial = 6
+  no_water_crossing_penalty = 1
+  naval_movement_speed_mult = 1
+  same_faith_opinion = 10
+}
+
+artifact_terracotta_army_modifier = {
+	men_at_arms_limit = 2
+  monthly_prestige_gain_mult = 0.2
+  men_at_arms_cap = 1
+  defender_advantage = 2
+}
