@@ -1,6 +1,6 @@
 ﻿namespace = eor_event
 
-eor_event.0001 = {
+eor_event.1000 = {
 	type = character_event
 	title = "Тест титле"
 	desc = "Тест дескриптион"
@@ -18,7 +18,7 @@ eor_event.0001 = {
 
 #pandora's box
 
-eor_event.0002 = {
+eor_event.1001 = {
 	type = character_event
   scope = character
 
@@ -30,7 +30,7 @@ eor_event.0002 = {
   option {
     name = legendary_decision_desc
 
-    create_eor_artifacts_effect = {
+    create_eor_pandora_box_effect = {
 	  $OWNER$ = { save_scope_as = owner }
 	  set_artifact_rarity_illustrious = yes
 
@@ -48,15 +48,16 @@ eor_event.0002 = {
       decaying = yes
       modifier = artifact_monthly_piety_4_modifier
       set_variable = { name = historical_unique_artifact value = yes }
+      set_variable = { name = pandora_box_artifact }
+      }
     }
-  }
+
     give_artifact = { who = root artifact = pandora_box } 
   }
 }
 
-#poseidon's trident
 
-eor_event.0003 = {
+eor_event.1002 = {
 	type = character_event
   scope = character
 
@@ -68,7 +69,7 @@ eor_event.0003 = {
   option {
     name = legendary_decision_desc
 
-    create_eor_artifacts_effect = {
+    create_eor_poseidon_trident_effect = {
 	  $OWNER$ = { save_scope_as = owner }
 	  set_artifact_rarity_illustrious = yes
 
@@ -83,9 +84,10 @@ eor_event.0003 = {
         type = created_before_history
       }
       save_scope_as = eor_poseidon_trident
-      decaying = no
+      decaying = yes
       modifier = artifact_monthly_piety_4_modifier
       set_variable = { name = historical_unique_artifact value = yes }
+      set_variable = { name = poseidon_trident_artifact }
     }
   }
     give_artifact = { who = root artifact = poseidon_trident } 

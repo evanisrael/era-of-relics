@@ -1,81 +1,4 @@
-﻿eor_decision_find= {
-	title = legendary_decision
-	picture = "gfx/interface/illustrations/decisions/dec_test.dds"
-
-	major = yes
-	
-	desc = legendary_decision_desc
-	confirm_text = legendary_decision_confirm
-
-  is_shown = {
-    always = yes
-  }
-
-	cost = {
-		gold = 100
-	}
-
-  effect = {
-    add_character_modifier = {
-			modifier = eor_main_modifier_positive
-		}
-
-    trigger_event = {
-			id = eor_event.0002
-			days = 10
-		}
-  }
-
-  ai_potential = {
-
-  }
-
-  ai_will_do = {
-    base = 10
-  }
-
-  cooldown = {
-    days = 1
-  }
-}
-
-eor_decision_neg= {
-	title = test_neg
-	picture = "gfx/interface/illustrations/decisions/dec_test.dds"
-
-	major = yes
-	
-	desc = test_neg_desc
-	confirm_text = legendary_decision_confirm
-
-  is_shown = {
-    always = yes
-  }
-
-	cost = {
-		gold = 1000
-	}
-
-  effect = {
-    add_character_modifier = {
-			modifier = eor_main_modifier_negative
-		}
-  }
-
-  ai_potential = {
-
-  }
-
-  ai_will_do = {
-    base = 10
-  }	
-
-  cooldown = {
-    days = 1800
-  }
-}
-
-eor_decision_pandora= {
+﻿eor_decision_pandora= {
 	title = "Ящик Пандоры"
 	picture = "gfx/interface/illustrations/decisions/dec_test.dds"
 
@@ -85,7 +8,7 @@ eor_decision_pandora= {
 	confirm_text = legendary_decision_confirm
 
   is_shown = {
-          has_royal_court = yes
+    always = yes
   }
 
 	cost = {
@@ -98,7 +21,7 @@ eor_decision_pandora= {
 		}
 
     trigger_event = {
-			id = eor_event.0002
+			id = eor_event.2
 			days = 10
 		}
   }
@@ -126,7 +49,7 @@ eor_decision_poseidon= {
 	confirm_text = legendary_decision_confirm
 
   is_shown = {
-          has_royal_court = yes
+    always = yes
   }
 
 	cost = {
@@ -139,7 +62,7 @@ eor_decision_poseidon= {
 		}
 
     trigger_event = {
-			id = eor_event.0003
+			id = eor_event.3
 			days = 10
 		}
   }
@@ -155,87 +78,4 @@ eor_decision_poseidon= {
   cooldown = {
     days = 1
   }
-}
-
-###########################################
-
-
-namespace = my_decision
-
-# Define the trigger
-trigger = {
-    has_global_flag = my_decision_available
-    character = {
-        is_ai = no
-        exists = yes
-    }
-}
-
-# Define the options
-option = {
-    # Check if there are still artifacts available to
-    hidden_effect = {
-        count_global_flags = my_event_given_artifacts
-        num_of_flags = 10
-        set_global_flag = my_decision_available
-    }
-
-    # Set the character flag to allow the event to trigger
-    effect = {
-        character_event_target = {
-            add_character_flag = my_event_available
-        }
-    }
-
-    # Wait for 2 months
-    days = 60
-
-    # Trigger the event
-    trigger_event = {
-        id = my_event.id
-    }
-
-    # Wait for 2 months
-    days = 60
-
-    # Trigger the event again
-    trigger_event = {
-        id = my_event.id
-    }
-
-    # Wait for 2 months
-    days = 60
-
-    # Trigger the event again
-    trigger_event = {
-        id = my_event.id
-    }
-
-    # Wait for 2 months
-    days = 60
-
-    # Trigger the event again
-    trigger_event = {
-        id = my_event.id
-    }
-
-    # Wait for 2 months
-    days = 60
-
-    # Trigger the event again, but on the last time create a new artifact
-    option_trigger_event = {
-        id = my_event.id
-        hidden_effect = {
-            random_artifact = {
-                range = artifact_type_1 -- artifact_type_10
-            }
-            create_artifact = {
-                type = RESULT
-            }
-            set_global_flag = RESULT_given
-            global_event_target = {
-                add_character_flag = my_event_available
-            }
-        }
-    }
 }

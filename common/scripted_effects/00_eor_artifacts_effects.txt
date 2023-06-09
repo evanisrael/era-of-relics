@@ -1,21 +1,43 @@
-﻿create_eor_artifacts_effect = {
-	$OWNER$ = { save_scope_as = owner }
-	set_artifact_rarity_illustrious = yes
+﻿create_eor_pandora_box_effect = {
+	  $OWNER$ = { save_scope_as = owner }
+	  set_artifact_rarity_illustrious = yes
 
-	create_artifact = {
-		name = pandora_box
-		description = pandora_box_desc
-		type = sword 
-		visuals = pandora_chest
-		wealth = scope:wealth
-		quality = scope:quality
-		history = {
-			type = created_before_history
-		}
-		save_scope_as = eor_pandora_box
-		decaying = yes
-    modifier = artifact_monthly_piety_4_modifier
-    set_variable = { name = historical_unique_artifact value = yes }
-    save_scope_as = newly_created_artifact
-	}
-}
+	  create_artifact = {
+      name = pandora_box
+      description = pandora_box_desc
+      type = sword 
+      visuals = pandora_chest
+      wealth = scope:wealth
+      quality = scope:quality
+      history = {
+        type = created_before_history
+      }
+      save_scope_as = eor_pandora_box
+      decaying = yes
+      modifier = artifact_monthly_piety_4_modifier
+      set_variable = { name = historical_unique_artifact value = yes }
+      set_variable = { name = pandora_box_artifact }
+    }
+  }
+
+create_eor_poseidon_trident_effect = {
+	  $OWNER$ = { save_scope_as = owner }
+	  set_artifact_rarity_illustrious = yes
+
+	  create_artifact = {
+      name = poseidon_trident
+      description = poseidon_trident_desc
+      type = sword 
+      visuals = poseidon_trident
+      wealth = scope:wealth
+      quality = scope:quality
+      history = {
+        type = created_before_history
+      }
+      save_scope_as = eor_poseidon_trident
+      decaying = yes
+      modifier = artifact_monthly_piety_4_modifier
+      set_variable = { name = historical_unique_artifact value = yes }
+      set_variable = { name = poseidon_trident_artifact }
+    }
+  }
