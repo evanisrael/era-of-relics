@@ -21,7 +21,7 @@
 		}
 
     trigger_event = {
-			id = eor_event.2
+			id = eor_pandora_event.1000
 			days = 10
 		}
   }
@@ -62,7 +62,7 @@ eor_decision_poseidon= {
 		}
 
     trigger_event = {
-			id = eor_event.3
+			id = eor_poseidon_event.1000
 			days = 10
 		}
   }

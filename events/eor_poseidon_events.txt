@@ -1,0 +1,40 @@
+﻿namespace = eor_poseidon_event
+
+#pandora's box
+
+eor_poseidon_event.1000 = {
+	type = character_event
+  scope = character
+
+  left_portrait = {
+      character = ROOT
+			animation = admiration
+		}
+
+  option {
+    name = "Тест посейдон"
+
+    create_eor_poseidon_trident_effect = {
+	  $OWNER$ = { save_scope_as = owner }
+	  set_artifact_rarity_illustrious = yes
+
+	  create_artifact = {
+      name = poseidon_trident
+      description = poseidon_trident_desc
+      type = sword 
+      visuals = poseidon_trident
+      wealth = scope:wealth
+      quality = scope:quality
+      history = {
+        type = created_before_history
+      }
+      save_scope_as = eor_poseidon_trident
+      decaying = yes
+      modifier = artifact_monthly_piety_4_modifier
+      set_variable = { name = historical_unique_artifact value = yes }
+      set_variable = { name = poseidon_trident_artifact }
+    }
+  }
+    give_artifact = { who = root artifact = poseidon_trident } 
+  }
+}
