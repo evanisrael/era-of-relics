@@ -8,7 +8,12 @@
 	confirm_text = legendary_decision_confirm
 
   is_shown = {
-    always = yes
+    NOT = {
+      is_target_in_global_variable_list = {
+        name = unavailable_unique_decisions
+        target = flag:eor_decision_pandora
+      }
+    }
   }
 
 	cost = {
@@ -24,6 +29,15 @@
 			id = eor_pandora_event.1000
 			days = 10
 		}
+
+    add_to_global_variable_list = {
+      name = unavailable_unique_decisions
+      target = flag:eor_decision_pandora
+    }
+    set_global_variable = {
+      name = eor_decision_pandora
+      value = scope:pandora_finder
+    }
   }
 
   ai_potential = {
@@ -49,7 +63,12 @@ eor_decision_poseidon= {
 	confirm_text = legendary_decision_confirm
 
   is_shown = {
-    always = yes
+    NOT = {
+      is_target_in_global_variable_list = {
+        name = unavailable_unique_decisions
+        target = flag:eor_decision_poseidon
+      }
+    }
   }
 
 	cost = {
@@ -65,6 +84,15 @@ eor_decision_poseidon= {
 			id = eor_poseidon_event.1000
 			days = 10
 		}
+
+    add_to_global_variable_list = {
+      name = unavailable_unique_decisions
+      target = flag:eor_decision_poseidon
+    }
+    set_global_variable = {
+      name = eor_decision_poseidon
+      value = scope:poseidon_finder
+    }
   }
 
   ai_potential = {
@@ -90,7 +118,12 @@ eor_decision_agamemnon= {
 	confirm_text = legendary_decision_confirm
 
   is_shown = {
-    always = yes
+    NOT = {
+      is_target_in_global_variable_list = {
+        name = unavailable_unique_decisions
+        target = flag:eor_decision_agamemnon
+      }
+    }
   }
 
 	cost = {
@@ -106,6 +139,15 @@ eor_decision_agamemnon= {
 			id = eor_agamemnon_event.1000
 			days = 10
 		}
+
+    add_to_global_variable_list = {
+      name = unavailable_unique_decisions
+      target = flag:eor_decision_agamemnon
+    }
+    set_global_variable = {
+      name = eor_decision_agamemnon
+      value = scope:agamemnon_finder
+    }
   }
 
   ai_potential = {
@@ -131,7 +173,12 @@ eor_decision_aztec= {
 	confirm_text = legendary_decision_confirm
 
   is_shown = {
-    always = yes
+    NOT = {
+      is_target_in_global_variable_list = {
+        name = unavailable_unique_decisions
+        target = flag:eor_decision_aztec
+      }
+    }
   }
 
 	cost = {
@@ -147,6 +194,15 @@ eor_decision_aztec= {
 			id = eor_aztec_event.1000
 			days = 10
 		}
+
+    add_to_global_variable_list = {
+      name = unavailable_unique_decisions
+      target = flag:eor_decision_aztec
+    }
+    set_global_variable = {
+      name = eor_decision_aztec
+      value = scope:aztec_finder
+    }
   }
 
   ai_potential = {
@@ -172,7 +228,12 @@ eor_decision_david= {
 	confirm_text = legendary_decision_confirm
 
   is_shown = {
-    always = yes
+    NOT = {
+      is_target_in_global_variable_list = {
+        name = unavailable_unique_decisions
+        target = flag:eor_decision_david
+      }
+    }
   }
 
 	cost = {
@@ -188,6 +249,15 @@ eor_decision_david= {
 			id = eor_david_event.1000
 			days = 10
 		}
+
+    add_to_global_variable_list = {
+      name = unavailable_unique_decisions
+      target = flag:eor_decision_david
+    }
+    set_global_variable = {
+      name = eor_decision_david
+      value = scope:david_finder
+    }
   }
 
   ai_potential = {
@@ -213,7 +283,12 @@ eor_decision_grail= {
 	confirm_text = legendary_decision_confirm
 
   is_shown = {
-    always = yes
+    NOT = {
+      is_target_in_global_variable_list = {
+        name = unavailable_unique_decisions
+        target = flag:eor_decision_grail
+      }
+    }
   }
 
 	cost = {
@@ -229,6 +304,15 @@ eor_decision_grail= {
 			id = eor_grail_event.1000
 			days = 10
 		}
+
+    add_to_global_variable_list = {
+      name = unavailable_unique_decisions
+      target = flag:eor_decision_grail
+    }
+    set_global_variable = {
+      name = eor_decision_grail
+      value = scope:grail_finder
+    }
   }
 
   ai_potential = {
@@ -254,7 +338,12 @@ eor_decision_hope= {
 	confirm_text = legendary_decision_confirm
 
   is_shown = {
-    always = yes
+    NOT = {
+      is_target_in_global_variable_list = {
+        name = unavailable_unique_decisions
+        target = flag:eor_decision_hope
+      }
+    }
   }
 
 	cost = {
@@ -270,6 +359,15 @@ eor_decision_hope= {
 			id = eor_hope_event.1000
 			days = 10
 		}
+
+    add_to_global_variable_list = {
+      name = unavailable_unique_decisions
+      target = flag:eor_decision_hope
+    }
+    set_global_variable = {
+      name = eor_decision_hope
+      value = scope:hope_finder
+    }
   }
 
   ai_potential = {
@@ -295,7 +393,12 @@ eor_decision_mjolnir= {
 	confirm_text = legendary_decision_confirm
 
   is_shown = {
-    always = yes
+    NOT = {
+      is_target_in_global_variable_list = {
+        name = unavailable_unique_decisions
+        target = flag:eor_decision_mjolnir
+      }
+    }
   }
 
 	cost = {
@@ -311,6 +414,15 @@ eor_decision_mjolnir= {
 			id = eor_mjolnir_event.1000
 			days = 10
 		}
+
+    add_to_global_variable_list = {
+      name = unavailable_unique_decisions
+      target = flag:eor_decision_mjolnir
+    }
+    set_global_variable = {
+      name = eor_decision_mjolnir
+      value = scope:mjolnir_finder
+    }
   }
 
   ai_potential = {
@@ -336,7 +448,12 @@ eor_decision_terracotta= {
 	confirm_text = legendary_decision_confirm
 
   is_shown = {
-    always = yes
+    NOT = {
+      is_target_in_global_variable_list = {
+        name = unavailable_unique_decisions
+        target = flag:eor_decision_terracotta
+      }
+    }
   }
 
 	cost = {
@@ -352,6 +469,15 @@ eor_decision_terracotta= {
 			id = eor_terracotta_event.1000
 			days = 10
 		}
+
+    add_to_global_variable_list = {
+      name = unavailable_unique_decisions
+      target = flag:eor_decision_terracotta
+    }
+    set_global_variable = {
+      name = eor_decision_terracotta
+      value = scope:terracotta_finder
+    }
   }
 
   ai_potential = {
